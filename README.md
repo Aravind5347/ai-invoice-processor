@@ -70,4 +70,7 @@ python workflow.py
 
 ## AI/LLM Project Details
 
-Built an AI-powered invoice processing workflow using Python and Generative AI concepts. The sy
+
+## AI/LLM Project Details
+
+Built an AI-powered invoice processing workflow using Python and Generative AI concepts. The system processes invoice documents, extracts relevant information, and converts unstructured documents into structured invoice data using an agent-based architecture.
