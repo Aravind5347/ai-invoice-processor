@@ -1,48 +1,73 @@
 # AI Invoice Processor
 
-An AI-powered invoice processing system built using Python and Generative AI concepts.
+An AI-powered invoice processing system that extracts structured information from invoice documents using Python and Generative AI concepts.
 
-## Overview
+## Project Overview
 
-This project extracts important information from invoices and processes invoice documents using AI-based workflows.
+The AI Invoice Processor automates invoice understanding by processing PDF documents, extracting important fields, and converting unstructured invoice data into structured information.
 
-## Features
+## Key Features
 
-- Invoice document processing
-- Information extraction from PDF invoices
+- PDF invoice processing
+- AI-based information extraction
+- Agent-based workflow architecture
 - Structured invoice data generation
-- AI agent-based workflow
-- Python backend architecture
+- Modular Python backend design
+
+## System Workflow
+Invoice PDF
+|
+↓
+Document Processing
+|
+↓
+Extractor Agent
+|
+↓
+Invoice Data Model
+|
+↓
+Structured Output
 
 ## Project Structure
 ai-invoice-processor
-│
+
 ├── agents
 │ └── extractor_agent.py
-├── data
-│ └── samples
+
 ├── models
 │ └── invoice.py
+
 ├── utils
 │ └── utils.py
-├── workflow.py
-└── setup
+
+├── data
+│ └── samples
+
+├── setup
+
+└── workflow.py
 
 ## Technologies Used
 
 - Python
 - Generative AI
-- LLM concepts
+- LLM Concepts
 - AI Agents
 - PDF Processing
+- Data Extraction
 
 ## How to Run
 
-1. Clone the repository
+Clone repository:git clone https://github.com/Aravind5347/ai-invoice-processor.git
 
-git clone https://github.com/Aravind5347/ai-invoice-processor.git
-
-2. Install dependencies
+## Install dependencies:
 
 pip install -r requirements.txt
 
+Run application:
+python workflow.py
+
+## AI/LLM Project Details
+
+Built an AI-powered invoice processing workflow using Python and Generative AI concepts. The sy
